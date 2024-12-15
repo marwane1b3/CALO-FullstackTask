@@ -224,7 +224,7 @@ export const HomeScreen = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-      {currentData?.length > 0 && (
+      {currentData && currentData?.length > 0 && (
         <Container>
           <Row>
             {currentData.map((item, index) => (
