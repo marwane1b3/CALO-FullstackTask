@@ -227,7 +227,7 @@ export const HomeScreen = () => {
       {currentData?.length > 0 && (
         <Container>
           <Row>
-            {data.map((item, index) => (
+            {currentData.map((item, index) => (
               <Col
                 key={index}
                 style={{
