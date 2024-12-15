@@ -1,0 +1,25 @@
+.navbar-black {
+  background-color: black !important;
+}
+
+.custom-link {
+  outline: 2px solid transparent;
+  transition: outline-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  text-decoration-line: none !important;
+}
+
+.active-link {
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+.text-secondary {
+  color: gray !important;
+  text-decoration-line: none;
+}
+
+.custom-link:hover,
+.custom-link:focus {
+  outline-color: currentColor;
+  text-decoration-line: none;
+}

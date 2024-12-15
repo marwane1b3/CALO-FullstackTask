@@ -1,0 +1,42 @@
+.action-item {
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  color: #fff;
+  cursor: pointer;
+}
+
+.create-job {
+  background-color: #007bff;
+  border: 2px solid #0069d9;
+}
+
+.search-job {
+  background-color: #28a745;
+  border: 2px solid #218838;
+}
+
+.recent-jobs {
+  background-color: #ffc107;
+  border: 2px solid #e0a800;
+}
+
+.action-item:hover {
+  opacity: 0.9;
+  transform: translateY(-5px);
+}
+
+.action-item:active {
+  transform: translateY(2px);
+}
+
+.action-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}

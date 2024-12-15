@@ -1,0 +1,20 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.app-container {
+  height: 100vh;
+}
+
+.outlet-container {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.navbar-black {
+  background-color: black !important;
+}
